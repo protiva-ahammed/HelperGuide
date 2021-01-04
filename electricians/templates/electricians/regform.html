@@ -1,0 +1,79 @@
+
+{% extends 'base.html' %}
+{% block content %}
+
+{% if error %}
+
+{{ error }}
+
+</br>
+{% endif %}
+
+<h1>Create Helper Profile  </h1>
+<form method="POST" action ="{% url 'electriciansreg' %}" enctype="multipart/form-data">
+{% csrf_token %}
+<br/>
+<br/>
+Job Title :</br>
+</br>
+
+<input type="text" name="title"/>
+</br>
+</br>
+Name:
+</br>
+<input type="text" name="name" />
+</br>
+</br>
+<!--Nid:
+</br>
+<input type="text" name="nid" />
+</br>
+</br>-->
+Experience:
+</br>
+<input type="text" name="experience" />
+</br>
+</br>
+Expected Salary:
+</br>
+<input type="text" name="esalary" />
+</br>
+</br>
+Contract:
+</br>
+<input type="text" name="contract" />
+</br>
+</br>
+Address:
+</br>
+<input type="text" name="address" />
+</br>
+</br>
+Description of skill:
+</br>
+<input type="textbox" name="skill" />
+</br>
+</br>
+Profile Url :
+</br>
+<input type="text" name="url" />
+</br>
+</br>
+<!--CV :
+</br>
+<input type="file" name="cv" />
+</br>
+</br>-->
+Image:
+</br><br/>
+<input type="file" name="image" />
+</br>
+</br>
+<input class="btn btn-primary"  type="submit" value="Submit "  />
+
+</form> 
+
+{% endblock %}
+
+

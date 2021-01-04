@@ -1,0 +1,141 @@
+
+
+
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<main role="main">
+
+
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Find & Hire trustworthy Helpers near you!!</h1>
+      <p class="lead text-muted">Easy, Quick, Reliable & Cost-effective.
+        Find multiple professionally verified Workers near you, connect with them directly & hire anyone you like, without the middlemen in between</p>
+      <p>
+        <a href="mailto:protivaahammed7137@gmail.com" class="btn btn-primary my-2">Email Us</a>
+
+      </p>
+    </div>
+  </section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+
+
+           
+            <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+
+                <img class="card-img-top" src="{% static 'eee1.jpeg' %}" width="250" height="250" />
+                <div class="card-body">
+                  <p class="card-text"><b><strong>Electricians</strong></b></p>
+                </div>
+                <a href="{% url 'eeelist' %}" class="btn btn-primary  btn-sm btn-block">View</a>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+    
+                    <img class="card-img-top" src="{% static 'pc.jpg' %}"width="250" height="250" />
+                    <div class="card-body">
+                      <p class="card-text"><b><strong>Probaho Courier Services</strong></b></p>
+                    </div>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-primary  btn-sm btn-block">View</button>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+      
+                      <img class="card-img-top" src="{% static 'plmb.png' %}"width="250" height="250" />
+                      <div class="card-body">
+                        <p class="card-text"><b><strong>Plamber</strong></b></p>
+                      </div>
+                     <div class="btn-group">
+                        <button type="button" class="btn btn-primary  btn-sm btn-block">View</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+            
+                            <img class="card-img-top" src="{% static 'helper1.jpg' %}" width="250" height="250" />
+                            <div class="card-body">
+                              <p class="card-text"><b><strong>House-Hold Chore Helper</strong></b></p>
+                            </div>
+                           <div class="btn-group">
+                              <button type="button" class="btn btn-primary  btn-sm btn-block">View</button>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                
+                                <img class="card-img-top" src="{% static 'painter2.jpg' %}" width="250" height="250" />
+                                <div class="card-body">
+                                  <p class="card-text"><b><strong>Wall-Painter</strong></b></p>
+                                </div>
+                               <div class="btn-group">
+                                  <button type="button" class="btn btn-primary  btn-sm btn-block">View</button>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                    
+                                    <img class="card-img-top" src="{% static 'carpanter.jpg' %}" width="250" height="250" />
+                                    <div class="card-body">
+                                      <p class="card-text"><b><strong>Carpenter</strong></b></p>
+                                    </div>
+                                   <div class="btn-group">
+                                      <button type="button" class="btn btn-primary  btn-sm btn-block">View</button>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+</main>
+<p>©️Protiva Ahammed {% now "Y" %}</p>
+
+{% endblock %}
+
+
+
+
+

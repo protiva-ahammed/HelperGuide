@@ -1,0 +1,64 @@
+
+{% extends 'base.html' %}
+{% block content %}
+
+{% if error %}
+
+{{ error }}
+
+</br>
+{% endif %}
+
+<h1>Post Job  </h1>
+<form method="POST" action ="{% url 'create' %}" enctype="multipart/form-data">
+{% csrf_token %}
+<br/>
+<br/>
+Job Title :</br>
+</br>
+
+<input type="text" name="title"/>
+</br>
+</br>
+Duration(in number):
+</br>
+<input type="text" name="duration" />
+</br>
+</br>
+Salary:
+</br>
+<input type="text" name="salary" />
+</br>
+</br>
+Contract:
+</br>
+<input type="text" name="contract" />
+</br>
+</br>
+Address:
+</br>
+<input type="text" name="address" />
+</br>
+</br>
+Description:
+</br>
+<input type="textbox" name="description" />
+</br>
+</br>
+Url:
+</br>
+<input type="text" name="url" />
+</br>
+</br>
+Icon:
+</br><br/>
+<input type="file" name="icon" />
+</br>
+</br>
+<input class="btn btn-primary"  type="submit" value="Add Job"  />
+
+</form> 
+
+{% endblock %}
+
+

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for e in e.all %}
+<div class="row pt-3">
+  <div class="col-2" onclick="window.location='{% url 'detailjobe' e.id %}';" style="cursor: pointer;">
+    <img src= "{{ e.image.url }}" class="img-fluid" />
+  </div>
+  <div class= "col-6" onclick="window.location='{% url 'detailjobe' e.id %}';" style="cursor: pointer;">
+    <h3>{{ e.name }}</h3>
+    <p><br>Experience:{{ e.experience }}
+      <br>Address: {{ e.address }}
+      <br>Expected Salary: {{ e.esalary }}
+    </p>
+  </div>
+  <div class="col-4">
+    <a href="javascript:{document.getElementById('eupvote{{ e.id }}').submit()}"><button class="btn btn-primary btn-lg btn-block"> Upvote {{ e.votes_total }}</button></a>
+  </div>
+</div>
+
+<form id="eupvote{{ e.id }}" method="POST" action="{% url 'eupvote' e.id %}">
+  {% csrf_token%}
+  <input type="hidden">
+</form>
+{% endfor %}
+
+{% endblock %}

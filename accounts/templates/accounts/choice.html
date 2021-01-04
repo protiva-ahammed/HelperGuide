@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Want to join as:</h2>
+</br>
+</br>
+<div id="browse_app">
+    <a class="btn btn-large btn-info" href=" {% url 'home' %}">Client</a><!--"templates/home.html"-->
+  </div>
+</br>
+</br>
+<div id="browse_app">
+    <a class="btn btn-large btn-info" href="{% url 'electriciansreg' %}">Electrician</a><!--"templates/home.html"-->
+  </div>
+</br>
+</br>
+  <div id="browse_app">
+    <a class="btn btn-large btn-info" width="100px" href="#">Machanics</a>
+  </div>
+</br>
+</br>
+  <div id="browse_app">
+    <a class="btn btn-large btn-info" width="100px"  href="#">Chore helper</a>
+  </div>
+</br>
+</br>
+  <div id="browse_app">
+    <a class="btn btn-large btn-info" href="#">Painter</a>
+  </div>
+</br>
+</br>
+
+
+    
+{% endblock %}
