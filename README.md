@@ -45,7 +45,7 @@ To develop the website Django Python framework had been used. Django is a high-l
 To develop a website 2 parts are needed.
 1.	Frontend
 1.	Backend<br>
-**Frontend: Html, CSS, Java Script, Bootstrap had been used in website.
+**Frontend: Html, CSS, Java Script, Bootstrap had been used in website.<br>
 Backend: Python (Django) had been used in website.
 Data Base Server: Postgres-SQL**
 
