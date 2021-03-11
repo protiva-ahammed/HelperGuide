@@ -1,5 +1,5 @@
 # HelperGuide
-#####Helps us to find helpers nearby
+##### Helps us to find helpers nearby
 
 **1.1	About Helper-Guide:**
 Helper-Guide is a well-fair website. It can help millions of underprivileged and unorganized work-force in finding local employment, free of cost, directly from the nearby employers, and without the middlemen in between. It also provides a courier service which helps its branch members to search any product, order, customer quickly. 
@@ -7,13 +7,13 @@ This project’s idea had come by experience from own student life living in hos
 
 **1.2	Necessity of Helper-Guide:**
 In our country there is no fixed or trusted organization where people can find electrician, mechanics, plumber, cleaner, chore helper, mason, carpenter, wall-painters. It takes a lot of time to find them. Living in Rajshahi many problems have to be faced by students, general people if they have electronic devices which stop working, anyone to help in accommodation related works, problems. They totally have to depend on hostel – owner, house-owner, hall-supervisor to resolve these problems. Despite of facing day to day life problems owners sometimes are not kind enough to find them. In-fact hostel-owners take extra money from students and also from the helpers. Followings are some important necessity of Helper-Guide.
-•	General people, students can find authenticate helpers without solely depends on other people.
-•	General people, students can communicate with helpers without others as via.
-•	Helper /daily-workers such as electrician, mechanics, plumber, cleaner, chore helper, mason, carpenter, wall- painters can find their jobs without middlemen.
-•	Daily-workers/helpers do not have to share their earnings with middlemen.
-•	Daily-workers/helpers can find job though they don’t belong to any branded organization.
-•	General people have to pay extra money if they take services from branded company’s wall-painters, carpenters etc.
-•	Any people, students who can solve daily life’s problem solved by daily-workers can create there profile and people can hire them. It will be a extra earning source for many students, people .They also can be skilled by real-life experiences.
+*General people, students can find authenticate helpers without solely depends on other people.
+*General people, students can communicate with helpers without others as via.
+*	Helper /daily-workers such as electrician, mechanics, plumber, cleaner, chore helper, mason, carpenter, wall- painters can find their jobs without middlemen.
+*	Daily-workers/helpers do not have to share their earnings with middlemen.
+*	Daily-workers/helpers can find job though they don’t belong to any branded organization.
+*	General people have to pay extra money if they take services from branded company’s wall-painters, carpenters etc.
+*Any people, students who can solve daily life’s problem solved by daily-workers can create there profile and people can hire them. It will be a extra earning source for many students, people .They also can be skilled by real-life experiences.
 
 
 **1.3 Problems in real life:**
