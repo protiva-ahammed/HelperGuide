@@ -42,9 +42,9 @@ During working on project following problems and applications had been solved an
 1. Helps clients to find helper easily, quickly within desired expenses (without wasting much money for brands).
 #### 2.1 Website Building Framework (Built Project’s):
 To develop the website Django Python framework had been used. Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so developer can focus on writing app without needing to reinvent the wheel. It’s free and open source.
-To develop a website 2 parts are needed.
-a.	Frontend
-b.	Backend
+To develop a website 2 parts are needed.<br>
+1.	Frontend
+1.	Backend
 **Frontend: Html, CSS, Java Script, Bootstrap had been used in website.
 Backend: Python (Django) had been used in website.
 Data Base Server: Postgres-SQL**
